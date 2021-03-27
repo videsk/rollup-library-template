@@ -18,6 +18,4 @@ In development mode you will be able to play adding your code on `public/main.js
 npm run build
 ```
 
-## Output files
-
 
