@@ -1,6 +1,6 @@
 {
   "name": "@videsk/rollup-library-template",
-  "umdName": "file-share",
+  "umdName": "MyLibrary",
   "version": "1.0.0",
   "description": "Template to compile library with Rollup",
   "files": [
@@ -28,11 +28,11 @@
   },
   "homepage": "https://github.com/videsk/rollup-library-template#readme",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^18.0.0",
-    "@rollup/plugin-node-resolve": "^11.2.1",
-    "rollup": "^2.42.4",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "rollup": "^2.48.0",
     "rollup-plugin-livereload": "^2.0.0",
-    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-replace": "^2.4.2",
     "rollup-plugin-terser": "^7.0.2"
   }
 }

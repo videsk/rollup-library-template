@@ -43,7 +43,7 @@ export default {
         {
             file: outputName(pkg.browser),
             format: 'umd',
-            name: 'FileShare',
+            name: 'MyLibrary',
             esModule: false,
             sourcemap: !production,
             strict: false,
