@@ -18,4 +18,11 @@ In development mode you will be able to play adding your code on `public/main.js
 npm run build
 ```
 
+## Publish (NPM)
+
+```
+npm run upload
+```
+
+To publish to NPM can execute the command script `upload`. With the command will build and upload based on version in `package.json`.
 
