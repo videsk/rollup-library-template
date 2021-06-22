@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "build": "rollup -c",
-    "dev": "rollup -c -w"
+    "dev": "rollup -c -w",
+    "upload": "npm run build && npm publish"
   },
   "browser": "dist/name-library.min.js",
   "main": "dist/index.cjs.js",
