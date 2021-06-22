@@ -3,7 +3,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
 import { terser } from 'rollup-plugin-terser';
 // Serve plugins
-import replace from 'rollup-plugin-replace';
+import replace from '@rollup/plugin-replace';
 import livereload from 'rollup-plugin-livereload';
 
 import pkg from "./package.json";
